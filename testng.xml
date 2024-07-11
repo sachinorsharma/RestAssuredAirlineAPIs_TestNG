@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredFframework_Airline_API's Test Suite">
+
+	<listeners>
+		<listener class-name="com.airline.utilities.Reporting" />
+	</listeners>
+	
+
+	<test name="RestAssuredFframework_Airline_API's">
+		<classes>
+			<class name="com.airline.testCases.GET_All_Airlines"></class>
+			<class name="com.airline.testCases.POST_Passenger_Record"></class>
+			<class name="com.airline.testCases.PUT_Update_Passenger_Record"></class>
+			<class name="com.airline.testCases.PATCH_Modify_Passenger_Record"></class>
+ 			<class name="com.airline.testCases.DELETE_Passenger_Record"></class>
+		</classes>
+	</test>
+</suite>

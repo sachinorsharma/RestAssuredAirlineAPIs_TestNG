@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RestAssuredFframework_Airline_API&#039;s Test Suite]">
+  <listeners>
+    <listener class-name="com.airline.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="RestAssuredFframework_Airline_API&#039;s(failed)">
+    <classes>
+      <class name="com.airline.testCases.GET_All_Airlines">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getAllAirlines"/>
+          <include name="setUp"/>
+          <include name="verifyResponseTime"/>
+        </methods>
+      </class> <!-- com.airline.testCases.GET_All_Airlines -->
+    </classes>
+  </test> <!-- RestAssuredFframework_Airline_API's(failed) -->
+</suite> <!-- Failed suite [RestAssuredFframework_Airline_API's Test Suite] -->
